@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clicfan</title>
+    <title><?= $_ENV["TITLE"] ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?= $_ENV['URL']; ?>style/css/style.css">
 </head>
 
 <body>
+    
     <nav>
-        <img src="./icono.png" alt="Icono">
+        <img src="<?= $_ENV['URL']; ?>style/img/icono.png" alt="Icono">
         <ul class="navbar">
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#"><i class="fas fa-graduation-cap"></i>
@@ -183,5 +184,5 @@
 
     </aside>
 </body>
-<script src="./app.js"></script>
+<script src="<?= $_ENV['URL']; ?>style/js/app.js"></script>
 </html>

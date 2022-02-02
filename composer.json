@@ -1,0 +1,12 @@
+{
+    "name": "jesus/desing",
+    "authors": [
+        {
+            "name": "jn83471",
+            "email": "jn83471@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
