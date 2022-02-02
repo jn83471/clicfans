@@ -17,7 +17,7 @@
         <img src="<?= $_ENV['URL']; ?>style/img/icono.png" alt="Icono">
         <ul class="navbar">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"><i class="fas fa-graduation-cap"></i>
+                <a class="nav-link" aria-current="page" href="#"><i style="color: #165271;" class="fas fa-graduation-cap"></i>
                 </a>
 
             </li>
@@ -185,4 +185,25 @@
     </aside>
 </body>
 <script src="<?= $_ENV['URL']; ?>style/js/app.js"></script>
+<script>
+<?php
+    //$ch = curl_init( "https://clicfans.com/reclutamiento/" );
+    # Setup request to send json via POST.
+    //$payload = array( "sendData"=> "jesus" );
+    //curl_setopt( $ch, CURLOPT_POSTFIELDS, $payload );
+    //curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+    # Return response instead of printing.
+    //curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );
+    # Send request.
+    //$result = curl_exec($ch);
+    //$resulta=json_decode($result);
+    //curl_close($ch);
+    //echo "console.log('".var_dump($resulta)."');";
+?>
+//embudos.textContent="?=$resulta->embudos ?>";
+//correos.textContent="?=$resulta->correos ?>";
+//contactos.textContent="?=$resulta->contactos ?>";
+//workflow.textContent="?=$resulta->workflows ?>";
+</script>
+
 </html>

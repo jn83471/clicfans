@@ -3,5 +3,5 @@ Para ejecutarce se necesita instalar composer para el env o simplemente utilizar
 en el .env URL seleccionar en la pagina especifica
 o poner ruatas especificas
 ### Pasos para poder instalar
--Abrir terminal
--En la teminal escribir "composer install"
+1. Abrir terminal
+2. En la teminal escribir "composer install"
